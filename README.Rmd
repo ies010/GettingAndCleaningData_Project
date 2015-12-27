@@ -1,0 +1,15 @@
+# Getting and Cleaning Data: Course Project
+	
+This is the course project for Getting and Cleaning Data.
+The main R script (`run_analysis.R`) does the following and 
+can be run as long as the Samsung data is in your working directory:
+
+1. Loads the activity and feature info
+2. Loads the training and test datasets, keeping only the columns containing
+   the mean or standard deviation
+3. Loads and merges the activity and subject data for each dataset
+4. Merges the two data
+5. Converts columns into factors
+6. Creates a tidy dataset consisting of the mean value for each variable, subject 
+   and activity pair.
+7. The tidy dataset is written out to the file: `tidy.txt`.
